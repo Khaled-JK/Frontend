@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body>
+
+<h3>Insert Film</h3>
+
+<div>
+    <label for="Title"><b>Title</b></label>
+    <input type="text" placeholder="Enter Title" name="Title" required>
+
+    <label for="Director"><b>Director</b></label>
+    <input type="text" placeholder="Enter Director Name" name="Director" required>
+
+    <label for="Year of Production"><b>Year of Production</b></label>
+    <input type="text" placeholder="Enter Year of Production" name="YearofProduction" required>
+
+    <label for="Characters"><b>Characters</b></label>
+    <input type="text" placeholder="Enter Characters Name" name="Characters" required>
+    <input type="text" placeholder="Enter Characters Name" name="Characters" required>
+    <input type="text" placeholder="Enter Characters Name" name="Characters" required>
+
+    <br>
+    <br>
+    
+    <label for="genre">Genre</label>
+    <select id="genre" name="genre">
+      <option value="drama">Drama</option>
+      <option value="comedy">Comedy</option>
+      <option value="action">Action</option>
+      <option value="adventure">Adventure</option>
+      <option value="horror">Horror</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>

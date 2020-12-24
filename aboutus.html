@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 0px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About FILMS</h1>
+  <p>FILMS is a trusted recommendation resources for quality entertainment.</p>
+  <p>We provide fans with a comprehensive guide to what’s Fresh - and what’s Unpleasnt - in theaters and at home.</p>
+</div>
+
+<div class="navbar">
+    <a href="./index.html">Home</a>
+    <a href="./aboutus.html">About Us</a>
+    <a href="./contactus.html">Contact Us</a>
+    <a href="./Register.html">Register</a>
+    <a href="./book.html">Booking</a>
+  </div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="88.jpg" alt="Noura" style="width:100%">
+      <div class="container">
+        <h2>Noura Al Hamadi</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Noura is 27 years old women who lives and breathes anything entertainment related. She started this serivce as a side job but later on turned into her full-time job.</p>
+        <p>NouraAlH55@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="66.jpg" alt="Sara" style="width:100%">
+      <div class="container">
+        <h2>Sara AlMarzooqi</h2>
+        <p class="title">Art Director</p>
+        <p>Sara has been working in the filming for the past 15 years achieving nothing but excellence. Sara is creative illustrator with a really strong background in adverstising, printing and production.</p>
+        <p>SaraAlM6@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="11.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>John Smith</h2>
+        <p class="title">Designer</p>
+        <p>Jhon is a highly creative and multitalented Graphic Designer with extensive experience in multimedia. With 6+ years in handling several simultaneous creative design projects.</p>
+        <p>JhonDesign5@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
